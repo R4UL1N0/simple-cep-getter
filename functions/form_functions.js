@@ -43,8 +43,10 @@ export function styleCep() {
             let offHyphenCep = cepText.replace('-', '')
             offHyphenCep += charCode
             if (offHyphenCep.length >= 8) {
+                
                 console.log(offHyphenCep)
                 fetchCep(offHyphenCep)
+                // cep.blur()
             }
             
 

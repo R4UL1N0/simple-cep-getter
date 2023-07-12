@@ -23,6 +23,7 @@ function clearValues() {
 }
 
 function addValues(data) {
+    document.getElementById('cep').blur()
     document.getElementById('rua').value = data.logradouro
     document.getElementById('bairro').value = data.bairro
     document.getElementById('cidade').value = data.localidade
